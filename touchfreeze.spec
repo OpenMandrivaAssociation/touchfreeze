@@ -24,7 +24,7 @@ Obsoletes:	qsynaptics <= 0.22.0-4
 Obsoletes:	ksynaptics <= 0.3.3-1
 Provides:	qsynaptics
 Provides:	ksynaptics
-BuildRequires:	synaptics-devel
+BuildRequires:	libsynaptics-devel
 BuildRequires:	qt4-devel
 Requires:	synaptics
 
