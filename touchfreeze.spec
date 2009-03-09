@@ -44,7 +44,7 @@ qmake
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}%{_bindir}
-install -m 0755 TouchFreeze %{buildroot}%{_bindir}/%{name}
+install -m 0755 %name %{buildroot}%{_bindir}/%{name}
 
 # XDG autostart
 mkdir -p %{buildroot}%{_sysconfdir}/xdg/autostart
