@@ -1,5 +1,5 @@
 %define rel	1
-%define pre	pre
+%define pre	0
 
 %if %pre
 %define release		%mkrel 0.%pre.%rel
@@ -12,8 +12,8 @@
 %endif
 
 Name:		touchfreeze
-Version:	0.2
-Release:	%mkrel 0.pre.1
+Version:	0.2.3
+Release:	%mkrel 1
 Summary:	Utility to disable touchpad tap-clicking while typing
 License:	GPL+
 Group:		System/Configuration/Hardware
