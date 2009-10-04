@@ -24,7 +24,6 @@ Obsoletes:	qsynaptics <= 0.22.0-4
 Obsoletes:	ksynaptics <= 0.3.3-1
 Provides:	qsynaptics
 Provides:	ksynaptics
-BuildRequires:	synaptics-devel
 BuildRequires:	qt4-devel
 Requires:	synaptics
 
@@ -38,7 +37,7 @@ the previous QSynaptics and KSynaptics tools.
 %setup -q -n %{dirname}
 
 %build
-qmake
+%qmake_qt4
 %make
 
 %install
