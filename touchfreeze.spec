@@ -13,7 +13,7 @@
 
 Name:		touchfreeze
 Version:	0.2.5
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	Utility to disable touchpad tap-clicking while typing
 License:	GPL+
 Group:		System/Configuration/Hardware
@@ -70,4 +70,35 @@ rm -rf %{buildroot}
 %{_bindir}/%{name}
 %{_sysconfdir}/xdg/autostart/mandriva-%{name}.desktop
 %{_datadir}/autostart/mandriva-%{name}.desktop
+
+
+
+%changelog
+* Fri May 06 2011 Oden Eriksson <oeriksson@mandriva.com> 0.2.5-2mdv2011.0
++ Revision: 670724
+- mass rebuild
+
+* Fri Oct 01 2010 Funda Wang <fwang@mandriva.org> 0.2.5-1mdv2011.0
++ Revision: 582217
+- new version 0.2.5
+
+* Wed Mar 17 2010 Oden Eriksson <oeriksson@mandriva.com> 0.2.3-2mdv2010.1
++ Revision: 524233
+- rebuilt for 2010.1
+
+* Sun Oct 04 2009 Funda Wang <fwang@mandriva.org> 0.2.3-1mdv2010.0
++ Revision: 453275
+- synaptics-devel is not needed acturally
+
+* Mon Mar 09 2009 Nicolas Lécureuil <nlecureuil@mandriva.com> 0.2.3-1mdv2009.1
++ Revision: 353067
+- Fix install
+- New version
+
+* Wed Mar 19 2008 Adam Williamson <awilliamson@mandriva.org> 0.2-0.pre.1mdv2008.1
++ Revision: 188971
+- revert last change, wasn't needed
+- try and fix br?
+- import touchfreeze
+
 
