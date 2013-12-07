@@ -13,7 +13,7 @@
 
 Name:		touchfreeze
 Version:	0.2.5
-Release:	%mkrel 3
+Release:	4
 Summary:	Utility to disable touchpad tap-clicking while typing
 License:	GPL+
 Group:		System/Configuration/Hardware
