@@ -1,0 +1,7 @@
+--- touchfreeze-0.2.5/TouchFreeze.pro.omv~	2014-02-18 14:21:17.184385279 +0100
++++ touchfreeze-0.2.5/TouchFreeze.pro	2014-02-18 14:21:24.019384999 +0100
+@@ -3,3 +3,4 @@ FORMS+=TouchFreezeUIBase.ui
+ RESOURCES+=stuff.qrc
+ SOURCES+=main.cpp TouchFreezeApp.cpp TouchFreezeUI.cpp SynDaemon.cpp
+ HEADERS+=TouchFreezeApp.h TouchFreezeUI.h SynDaemon.h Version.h
++LIBS+=-lX11
