@@ -31,7 +31,7 @@ the previous QSynaptics and KSynaptics tools.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 %qmake_qt4
