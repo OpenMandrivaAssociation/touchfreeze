@@ -14,7 +14,7 @@ Summary:	Utility to disable touchpad tap-clicking while typing
 License:	GPL+
 Group:		System/Configuration/Hardware
 Source0:	http://qsynaptics.sourceforge.net/%{distname}
-URL:		http://qsynaptics.sourceforge.net/
+URL:		https://qsynaptics.sourceforge.net/
 Patch0:		touchfreeze-0.2.5-compile.patch
 Obsoletes:	qsynaptics <= 0.22.0-4
 Obsoletes:	ksynaptics <= 0.3.3-1
