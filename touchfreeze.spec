@@ -20,6 +20,7 @@ Obsoletes:	qsynaptics <= 0.22.0-4
 Obsoletes:	ksynaptics <= 0.3.3-1
 Provides:	qsynaptics
 Provides:	ksynaptics
+BuildRequires:	make
 BuildRequires:	qt4-devel
 Requires:	synaptics
 
